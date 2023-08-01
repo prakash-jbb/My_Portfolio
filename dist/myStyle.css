@@ -1,0 +1,28 @@
+@media screen and (max-width: 768px) {
+    .heroSection {
+        background-image: url(https://img.freepik.com/free-photo/closeup-programmer-man-hand-typing-website-script-computer-working-remote-from-home-african-american-hacker-worker-programming-binary-code-using-network-security-system-concept-coding_482257-37980.jpg?size=626&ext=jpg&ga=GA1.2.1356479542.1689411154&semt=sph);
+        height: 400px;
+        background-size: cover;
+        width: 100vw;
+        height: 100vh;
+        margin-top: -50px;
+    }
+    .menuIcon {
+        color: rgb(255, 255, 255);
+    }
+}
+
+.projectCard {
+    max-width: 400px;
+    max-height: 300px;
+    overflow: hidden;
+}
+
+.projectCard img {
+    transition: 0.25s ease;
+}
+
+.projectCard:hover img {
+    transform: scale(1.2);
+    overflow: hidden;
+}

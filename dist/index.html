@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-s1mooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prakash Jbb Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="myStyle.css">
+    <!-- AOS Css file -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body class="bg-[#EEF2FF]">
+    <!-- Navbar start -->
+    <header class="text-white backdrop-blur-[100px] md:bg-[#303f9f] relative z-10 uppercase tracking-wide ">
+        <div class="md:max-w-[1320px] mx-auto flex justify-between md:justify-between py-2 text-base items-center">
+            <p class="uppercase text-lg md:text-3xl ml-3 animate__animated animate__zoomIn">Prakash <span class="">Jbb</span></p>
+            <!-- Menu Bar Icon -->
+            <div class="sm:inline md:hidden lg:hidden 2xl:hidden xl:hidden ">
+                <i class="fa-solid fa-bars fa-lg float-right md:mr-0 mr-3" style="color: #ffffff;"></i>
+            </div>
+
+            <div class="hidden md:flex">
+                <ul class="md:flex  gap-14 cursor-pointer">
+                    <li class="py-1 border-b-2"><a href="#">Home</a></li>
+                    <li class="hover:border-b-2 ease duration-100 py-1"><a href="#projectSection">Project</a></li>
+                    <li class="hover:border-b-2 ease duration-100 py-1"><a href="#aboutSection">About</a></li>
+                    <li class="hover:border-b-2 ease duration-100 py-1"><a href="#contactSection">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- Navbar End -->
+
+    <!-- Hero section start -->
+    <div class="heroSection md:flex md:items-center md:justify-between md:text-left text-center md:max-w-[1320px] md:mx-auto  md:gap-10 md:py-5 bg-no-repeat bg-cover">
+
+
+        <div class="md:float-right md:w-[50%] md:py-0 py-[50%] bg-white/10 backdrop-blur-[3px] h-[100vh] md:flex md:flex-col md:justify-center md:items-start">
+            <p class=" md:text-[#1a1a1a] text-white font-medium leading-normal md:leading-tight md:mb-3 md:text-left text-center text-4xl md:text-7xl ">
+                Hi, <br> I am Prakash, <br> Web Developer
+            </p>
+            <h2 class="md:text-[#1a1a1a] text-white  mb-2 md:mt-2 mt-4 md:mb-5 text-base tracking-wide md:text-xl md:bg-transparent">Front End Developer</h2>
+            <button class="  bg-[#303F9F] my-3 md:my-5 tracking-wider text-sm md:text-base text-white px-5 md:px-10 py-2 md:py-3 rounded-md border border-[#303f9f] hover:bg-transparent hover:text-[#303f9f] ease-in-out duration-200"><a href="#contactSection">CONTACT</a></button>
+        </div>
+
+        <div style="background-image: url(../src/Hand\ coding-bro.svg);" class="md:w-[50%] md:h-[600px] md:bg-no-repeat hidden md:flex">
+        </div>
+    </div>
+
+    <!-- Hero section end -->
+
+    <!-- About section Start -->
+    <div class="grid md:grid-cols-2 md:mt-10 my-[60px] md:max-w-[1320px] md:mx-auto md:justify-between md:w-[100%]" id="aboutSection" data-aos="zoom-in">
+        <div class="flex items-center justify-center">
+            <img src="../src/Mind map-pana.svg" alt="" class="w-[300px] md:w-[500px]">
+        </div>
+        <div class=" px-7">
+            <h1 class="text-center text-3xl md:text-5xl mb-4 md:mb-8 font-medium uppercase text-[#1a1a1a]">About Me</h1>
+            <p class="text-[#757575] mb-4 md:mb-8 text-base text-justify md:text-lg font-light tracking-wider">Hello! My name is Prakash and I enjoy creating things that live on the internet. My interest in web development started back in 2019 when I decided to try editing custom Tumblr themes — turns out hacking together a custom reblog button taught
+                me a lot about HTML & CSS!
+            </p>
+            <p class="text-[#1a1a1a] mb-2 md:mt-0 mt-7 md:mb-5 text-base tracking-wide md:text-xl">Here are a few technologies I’ve been working with recently:</p>
+
+            <ul class="grid grid-cols-2 md:mb-0 mb-5 md:gap-1 ml-4 list-image-[url(../src/arrow-right-solid.svg)] md:ml-3 font-light text-[#757575] text-base md:text-base md:tracking-wider">
+                <li>Html</li>
+                <li>Css</li>
+                <li>Javascript</li>
+                <li>React</li>
+                <li>Python</li>
+                <li>C</li>
+            </ul>
+            <div class="flex items-center justify-center md:float-right mt-3">
+                <a class=" bg-[#303F9F] my-3 md:my-8 tracking-wider text-sm md:text-base text-white px-5 md:px-10 py-2 md:py-3 rounded-md border border-[#303f9f] hover:bg-transparent hover:text-[#303f9f] ease-in-out duration-200" href="../src/Prakash.pdf" download="Prakash_Resume">Download CV</a>
+            </div>
+        </div>
+
+    </div>
+    <!-- About section End -->
+
+    <!-- Skills Section Start -->
+    <div class="bg-indigo-50 md:py-10 py-12 text-[#757575] tracking-wide">
+
+
+        <div class="flex md:flex-row gap-16 flex-col items-center w-[80%] md:w-full  md:max-w-[1320px] mx-auto md:mx-auto md:my-4  md:items-center">
+
+            <!-- Programming Skills Section -->
+            <div class="flex flex-col gap-5 md:w-[50%]  w-full " data-aos="zoom-in-left">
+                <p class="md:text-4xl md:mb-0 text-3xl font-medium md:font-normal md:text-left text-center mb-1 tracking-wide text-[#1a1a1a]">Programming Skills</p>
+
+                <div class="w-[100%] md:w-[100%]">
+                    <div class="flex justify-between mb-1">
+                        <p>Html</p>
+                        <p>90%</p>
+                    </div>
+
+                    <div class="w-[100%] md:w-full h-[8px] md:h-[12px] bg-[#D8E0FF] rounded-r-xl">
+                        <div class="w-[90%] h-[8px] md:h-[12px] bg-[#303F9F] rounded-r-xl">
+                            <div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w-[100%] md:w-[100%]">
+                    <div class="flex justify-between mb-1">
+                        <p>Css</p>
+                        <p>85%</p>
+                    </div>
+
+                    <div class="w-[100%] md:w-full h-[8px] md:h-[12px] bg-[#D8E0FF] rounded-r-xl">
+                        <div class="w-[85%] h-[8px] md:h-[12px] bg-[#303F9F] rounded-r-xl">
+                            <div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="w-[100%] md:w-[100%]">
+                    <div class="flex justify-between mb-1">
+                        <p>Tailwind</p>
+                        <p>85%</p>
+                    </div>
+
+                    <div class="w-[100%] md:w-full h-[8px] md:h-[12px] bg-[#D8E0FF] rounded-r-xl">
+                        <div class="w-[85%] h-[8px] md:h-[12px] bg-[#303F9F] rounded-r-xl">
+                            <div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="w-[100%] md:w-[100%]">
+                    <div class="flex justify-between mb-1">
+                        <p>Javascript</p>
+                        <p>60%</p>
+                    </div>
+
+                    <div class="w-[100%] md:w-full h-[8px] md:h-[12px] bg-[#D8E0FF] rounded-r-xl">
+                        <div class="w-[60%] h-[8px] md:h-[12px] bg-[#303F9F] rounded-r-xl">
+                            <div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w-[100%] md:w-[100%]">
+                    <div class="flex justify-between mb-1">
+                        <p>Python</p>
+                        <p>70%</p>
+                    </div>
+
+                    <div class="w-[100%] md:w-full h-[8px] md:h-[12px] bg-[#D8E0FF] rounded-r-xl">
+                        <div class="w-[70%] h-[8px] md:h-[12px] bg-[#303F9F] rounded-r-xl">
+                            <div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+            <!-- Other Skills -->
+            <div class="flex flex-col gap-5 md:w-[50%] h-[340px] w-full " data-aos="zoom-in-right">
+                <p class="md:text-4xl md:mb-2 text-3xl font-medium md:font-normal md:mt-0 mt-6 text-center md:text-left tracking-wide text-[#1a1a1a]">Other Skills</p>
+
+                <div class="w-[100%] md:w-full">
+                    <div class="flex justify-between mb-1">
+                        <p>Photography</p>
+                        <p>90%</p>
+                    </div>
+
+                    <div class="w-[100%] md:w-full h-[8px] md:h-[12px] bg-[#D8E0FF] rounded-r-xl">
+                        <div class="w-[90%] h-[8px] md:h-[12px] bg-[#303F9F] rounded-r-xl">
+                            <div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w-[100%] md:w-full">
+                    <div class="flex justify-between mb-1">
+                        <p>Photoshop</p>
+                        <p>80%</p>
+                    </div>
+
+                    <div class="w-[100%] md:w-full h-[8px] md:h-[12px] bg-[#D8E0FF] rounded-r-xl">
+                        <div class="w-[80%] h-[8px] md:h-[12px] bg-[#303F9F] rounded-r-xl">
+                            <div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="w-[100%] md:w-full">
+                    <div class="flex justify-between mb-1">
+                        <p>Adobe Premier Pro</p>
+                        <p>75%</p>
+                    </div>
+
+                    <div class="w-[100%] md:w-full h-[8px] md:h-[12px] bg-[#D8E0FF] rounded-r-xl">
+                        <div class="w-[75%] h-[8px] md:h-[12px] bg-[#303F9F] rounded-r-xl">
+                            <div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="w-[100%] md:w-full">
+                    <div class="flex justify-between mb-1">
+                        <p>Figma</p>
+                        <p>70%</p>
+                    </div>
+
+                    <div class="w-[100%] md:w-full h-[8px] md:h-[12px] bg-[#D8E0FF] rounded-r-xl">
+                        <div class="w-[70%] h-[8px] md:h-[12px] bg-[#303F9F] rounded-r-xl">
+                            <div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+
+        </div>
+    </div>
+    <!-- Skills Section End -->
+
+    <!-- My Project Section Start -->
+    <div class="projectContainer  md:mt-10 mt-14 max-w-[1200px] mx-auto items-center flex flex-col md:px-0 px-10" id="projectSection">
+
+        <h1 class="text-center text-3xl md:text-5xl mb-4 md:mb-8 font-medium uppercase text-[#1a1a1a]" data-aos="zoom-in">Project</h1>
+        <p class="text-[#757575] mb-4 md:mb-4 text-base text-center md:text-lg  tracking-wider " data-aos="zoom-in">These are all my projects which I made for frontend practice. Project ideas are taken from internet.</p>
+
+        <div class="flex flex-wrap gap-5 items-center justify-center my-10">
+            <!-- Project 1 -->
+            <div data-aos="fade-right">
+                <div class="projectCard rounded-md cursor-pointer">
+                    <a href="https://prakash-jbb.github.io/iPhone-Calculator/" target="_blank"><img src="https://images.pexels.com/photos/8962440/pexels-photo-8962440.jpeg?auto=compress&cs=tinysrgb&w=800" alt="" class="w-[300px] h-[200px] rounded-md"></a>
+
+                </div>
+                <p class="text-center mt-3"><a href="https://prakash-jbb.github.io/iPhone-Calculator/" target="_blank" class="cursor-pointer my-3 text-lg tracking-wide text-[#1a1a1a] hover:text-[#303f9f] ease-in-out">iPhone Calc Clone</a></p>
+
+            </div>
+            <!-- Project 2 -->
+            <div data-aos="fade-right">
+                <div class="projectCard rounded-md cursor-pointer">
+                    <a href="https://prakash-jbb.github.io/Random-Color/" target="_blank"> <img src="https://images.pexels.com/photos/1151299/pexels-photo-1151299.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" class="w-[300px] h-[200px] rounded-md"></a>
+
+                </div>
+                <p class="text-center mt-3"><a href="https://prakash-jbb.github.io/Random-Color/" target="_blank" class="cursor-pointer my-3 text-lg tracking-wide text-[#1a1a1a] hover:text-[#303f9f] ease-in-out">Random Color Palette Genrator</a></p>
+
+            </div>
+            <!-- Project 3 -->
+            <div data-aos="fade-right">
+                <div class="projectCard rounded-md cursor-pointer">
+                    <a href="https://prakash-jbb.github.io/Password-generator/" target="_blank"><img src="https://images.pexels.com/photos/2882630/pexels-photo-2882630.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" class="w-[300px] h-[200px] rounded-md"></a>
+
+                </div>
+                <p class="text-center mt-3"><a href="https://prakash-jbb.github.io/Password-generator/" target="_blank" class="cursor-pointer my-3 text-lg tracking-wide text-[#1a1a1a] hover:text-[#303f9f] ease-in-out">Password Generator</a></p>
+
+            </div>
+            <!-- Project 4 -->
+            <div data-aos="fade-left">
+                <div class="projectCard rounded-md cursor-pointer">
+                    <a href="https://prakash-jbb.github.io/Text-Editor/" target="_blank"><img src="https://images.pexels.com/photos/952594/pexels-photo-952594.jpeg?auto=compress&cs=tinysrgb&w=800" alt="" class="w-[300px] h-[200px] rounded-md"></a>
+
+                </div>
+                <p class="text-center mt-3"><a href="https://prakash-jbb.github.io/Text-Editor/" target="_blank" class="cursor-pointer my-3 text-lg tracking-wide text-[#1a1a1a] hover:text-[#303f9f] ease-in-out">Text Editor</a></p>
+
+            </div>
+            <!-- Project 5 -->
+            <div data-aos="fade-left">
+                <div class="projectCard rounded-md cursor-pointer">
+                    <img src="https://images.pexels.com/photos/8962440/pexels-photo-8962440.jpeg?auto=compress&cs=tinysrgb&w=800" alt="" class="w-[300px] h-[200px] rounded-md">
+
+                </div>
+                <p class="text-center mt-3"><a class="cursor-pointer my-3 text-lg tracking-wide text-[#1a1a1a] hover:text-[#303f9f] ease-in-out">iPhone Calc Clone</a></p>
+
+            </div>
+            <!-- Project 6 -->
+            <div data-aos="fade-left">
+                <div class="projectCard rounded-md cursor-pointer">
+                    <img src="https://images.pexels.com/photos/8962440/pexels-photo-8962440.jpeg?auto=compress&cs=tinysrgb&w=800" alt="" class="w-[300px] h-[200px] rounded-md">
+
+                </div>
+                <p class="text-center mt-3"><a class="cursor-pointer my-3 text-lg tracking-wide text-[#1a1a1a] hover:text-[#303f9f] ease-in-out">iPhone Calc Clone</a></p>
+
+            </div>
+
+        </div>
+
+    </div>
+    <!-- My Project Section End -->
+
+    <!-- Contact Form Section Start -->
+    <div class="md:bg-indigo-50 md:py-16 md:mt-16 py-4" data-aos="fade-up" id="contactSection">
+        <h1 class="text-center text-3xl md:text-5xl mb-4 md:mb-8 font-medium uppercase text-[#1a1a1a]">Contact</h1>
+        <div class="md:my-20 my-8 flex md:flex-row flex-col max-w-[1200px] mx-auto items-center justify-center">
+            <!-- Left section -->
+            <div class="bg-[#303f9f] text-white md:h-[600px] w-[100vw] md:w-[34%] py-16 px-10 md:rounded-l-lg">
+                <p class=" text-3xl mb-3 text-center tracking-wide">Let's get in touch</p>
+                <p class="text-center tracking-wide">I'm here for you. How can help you?</p>
+
+                <div class="my-12 mb-10 flex flex-col gap-7  md:items-start">
+
+                    <div class="flex gap-4 items-center tracking-wide">
+
+                        <i class="fa-solid fa-phone fa-md border-2 px-[8px] py-2 border-white rounded-full " style="color: #ffffff;"></i>
+
+                        <p>+91 98874318484</p>
+                    </div>
+
+
+                    <div class="flex gap-4 items-center tracking-wide">
+
+                        <i class="fa-solid fa-location-dot fa-md border-2 px-[10px] py-2 border-white rounded-full" style="color: #ffffff;"></i>
+
+                        <p>Jodhpur, Rajasthan, Pin-342014</p>
+                    </div>
+
+
+
+                    <div class="flex gap-4 items-center tracking-wide">
+
+                        <i class="fa-solid fa-envelope fa-md border-2 px-[8px] py-2 border-white rounded-full " style="color: #ffffff;"></i>
+
+                        <p> <a href="mailto:prakashmeghwaljbb0521@gmail.com"><span>prakashmeghwaljbb0521</span> <span>@gmail.com</span></a></p>
+                    </div>
+
+
+
+
+                    <div class="flex gap-7 mt-10 items-center justify-center">
+                        <a href="https://github.com/prakash-jbb" target="_blank"><i class="fa-brands fa-github fa-xl hover:scale-150 ease-in-out duration-300" style="color: #ffffff;"></i></a>
+                        <a href="https://www.linkedin.com/in/prakash-jbb/" target="_blank"><i class="fa-brands fa-linkedin-in fa-xl hover:scale-150 ease-in-out duration-300" style="color: #ffffff;"></i></a>
+                        <a href="https://www.instagram.com/prakash_jbb" target="_blank"><i class="fa-brands fa-instagram fa-xl hover:scale-150 ease-in-out duration-300" style="color: #ffffff;"></i></a>
+                        <a href="https://twitter.com/PrakashJbb" target="_blank"><i class="fa-brands fa-twitter fa-xl hover:scale-150 ease-in-out duration-300" style="color: #ffffff;"></i></a>
+                    </div>
+
+                </div>
+            </div>
+            <!-- Right Section -->
+            <div class="py-16 px-10 flex flex-col bg-white md:h-[600px] md:w-[50%] w-full md:rounded-r-lg">
+                <p class="text-4xl text-[#1a1a1a] mb-10">Get in touch</p>
+                <div>
+                    <div class="flex md:flex-row flex-col gap-5">
+                        <div class="flex flex-col w-full md:w-[50%]">
+                            <label for="name" class="text-base font-medium tracking-wide text-[#1a1a1a]">FULL NAME</label>
+                            <input type="text" id="name" class="border-0 border-b-2 border-gray-300 bg-transparent py-1 my-3  focus:outline-0 focus:bg-transparent " placeholder="Name">
+                        </div>
+                        <div class="flex flex-col w-full md:w-[50%]">
+                            <label for="email" class="text-base font-medium tracking-wide text-[#1a1a1a]">EMAIL ADDRESS</label>
+                            <input type="email" id="name" class="border-0 border-b-2 border-gray-300 bg-transparent py-1 my-3 focus:outline-0" placeholder="Email">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="flex flex-col w-full mt-3">
+                            <label for="subject" class="text-base font-medium tracking-wide text-[#1a1a1a]">SUBJECT</label>
+                            <input type="text" id="subject" class="border-0 border-b-2 border-gray-300 bg-transparent py-1 my-3 focus:outline-0" placeholder="Subject">
+                        </div>
+                        <div class="flex flex-col mt-3">
+                            <label for="message" class="text-base font-medium tracking-wide text-[#1a1a1a] ">MESSAGE</label>
+                            <textarea name="message" id="message" cols="30" rows="4" value="" class="border-0 border-b-2 border-gray-300 bg-transparent py-1 my-3 focus:outline-0 resize-none" placeholder="Message"></textarea>
+                        </div>
+                        <button class=" bg-[#303F9F] my-3 md:my-8 tracking-wider text-sm md:text-base text-white px-5 md:px-10 py-2 md:py-3 rounded-md border border-[#303f9f] hover:bg-transparent hover:text-[#303f9f] ease-in-out duration-200">Send Message</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact Form Section End -->
+
+    <!-- Footer section Strat -->
+    <footer>
+
+        <div class="w-full h-[150px] bg-[#303f9f] flex gap-10 justify-center">
+
+            <!-- Follow section -->
+            <div class="flex flex-col justify-center">
+                <h1 class="text-3xl text-white mb-1 text-center">Follow Me</h1>
+                <p class="text-[#D8E0FF] text-base mb-2 text-center">Let us be social</p>
+                <div class="flex gap-7 mt-4">
+                    <a href="https://github.com/prakash-jbb" target="_blank"><i class="fa-brands fa-github fa-xl hover:scale-150 ease-in-out duration-300" style="color: #ffffff;"></i></a>
+                    <a href="https://www.linkedin.com/in/prakash-jbb/" target="_blank"><i class="fa-brands fa-linkedin-in fa-xl hover:scale-150 ease-in-out duration-300" style="color: #ffffff;"></i></a>
+                    <a href="https://www.instagram.com/prakash_jbb" target="_blank"><i class="fa-brands fa-instagram fa-xl hover:scale-150 ease-in-out duration-300" style="color: #ffffff;"></i></a>
+                    <a href="https://twitter.com/PrakashJbb" target="_blank"><i class="fa-brands fa-twitter fa-xl hover:scale-150 ease-in-out duration-300" style="color: #ffffff;"></i></a>
+                </div>
+
+            </div>
+
+
+        </div>
+    </footer>
+    <!-- Footer section End -->
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 200,
+            duration: 1000,
+        });
+    </script>
+
+</body>
+
+</html>
