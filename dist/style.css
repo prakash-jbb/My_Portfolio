@@ -664,6 +664,14 @@ video {
   height: 8px;
 }
 
+.h-\[250px\] {
+  height: 250px;
+}
+
+.h-\[2550px\] {
+  height: 2550px;
+}
+
 .w-\[100\%\] {
   width: 100%;
 }
@@ -921,6 +929,11 @@ video {
 .py-\[50\%\] {
   padding-top: 50%;
   padding-bottom: 50%;
+}
+
+.py-0 {
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 .text-center {
@@ -1290,6 +1303,11 @@ video {
   .md\:py-3 {
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
+  }
+
+  .md\:py-1 {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
   }
 
   .md\:text-left {
